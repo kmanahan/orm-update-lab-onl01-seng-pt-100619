@@ -35,7 +35,7 @@ attr_reader :id
     VALUES (?,?) 
     SQL
     DB[:conn].execute(sql, self.name, self.grade)
-    @id = DB[:conn]
+    @id = DB[:conn].execute(sql)
   end 
 
 end
