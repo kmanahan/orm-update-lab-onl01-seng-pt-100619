@@ -52,4 +52,6 @@ attr_reader :id
     new_student = self.new(row[0], row[1], row[2])
     new_student
   end 
+  
+  def 
 end
