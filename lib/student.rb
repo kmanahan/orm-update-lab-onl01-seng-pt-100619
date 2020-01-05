@@ -58,6 +58,6 @@ attr_reader :id
       SELECT * FROM students WHERE name = ?
       SQL
     DB[:conn].execute(sql, name).map |row|
-    self.new_from_db()
+    self.new_from_db(row)
   end 
 end
