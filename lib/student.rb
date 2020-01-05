@@ -12,5 +12,8 @@ attr_reader :id
     @grade = grade 
   end 
 
+  def self.drop_table 
+    
+  end 
 
 end
