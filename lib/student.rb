@@ -61,4 +61,7 @@ attr_reader :id
     end.first
   end 
   
+   def update 
+     
+   end 
 end
