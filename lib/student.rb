@@ -53,6 +53,7 @@ attr_reader :id
     new_student
   end 
   
-  def self.find_by_name()
+  def self.find_by_name(name)
+    
   end 
 end
