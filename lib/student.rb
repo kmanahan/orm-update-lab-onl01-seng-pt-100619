@@ -63,6 +63,6 @@ attr_reader :id
   
    def update 
      sql = <<-SQL 
-     
+     UPDATE students 
    end 
 end
