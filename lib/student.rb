@@ -42,7 +42,6 @@ attr_reader :id
     new_student = self.new(name, grade)
     new_student.save 
     new_student 
-    SQL
   end 
   
   def self.new_from_db(row)
