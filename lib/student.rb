@@ -40,6 +40,7 @@ attr_reader :id
 
   def self.create(name, grade)
     sql = <<-SQL 
-    new_student = self.new()
+    new_student = self.new(name, grade)
+    
   end 
 end
