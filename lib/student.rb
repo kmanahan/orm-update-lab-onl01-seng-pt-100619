@@ -45,4 +45,8 @@ attr_reader :id
     new_student 
     SQL
   end 
+  
+  def self.new_from_db 
+    
+  end 
 end
