@@ -30,6 +30,7 @@ attr_reader :id
   end 
   
   def save 
+    #need update method for this to pass
     if self.id
       self.update
     else
