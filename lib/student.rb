@@ -44,6 +44,5 @@ attr_reader :id
     new_student.save 
     new_student 
     SQL
-  DB[:conn].execute(sql)
   end 
 end
