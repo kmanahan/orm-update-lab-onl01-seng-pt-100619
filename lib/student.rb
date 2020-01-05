@@ -55,6 +55,6 @@ attr_reader :id
   
   def self.find_by_name(name)
     sql = <<-SQL 
-      SELECT * FROM 
+      SELECT * FROM students 
   end 
 end
