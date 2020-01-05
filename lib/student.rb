@@ -14,7 +14,8 @@ attr_reader :id
 
   def self.drop_table 
     sql = <<-SQL 
-      CREATE TABLE IF NOT EXISTS s
+      CREATE TABLE IF NOT EXISTS students (
+      )
   end 
 
 end
